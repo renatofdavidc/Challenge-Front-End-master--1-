@@ -1,6 +1,9 @@
 body{
     background-color: lightblue;
 }
+header{
+    align-items: center;
+}
 h1{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: whitesmoke;
@@ -12,7 +15,7 @@ h1{
 h2{
     color: blue;
     border-bottom: 2px solid purple;
-    max-width: 20%;
+    width: 20%;
 }
 .logoPorto img{
     max-width: 400px;
