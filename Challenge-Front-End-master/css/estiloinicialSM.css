@@ -1,0 +1,85 @@
+@media (max-width:479.98px){
+    body{
+        background-color: lightblue;
+    }
+    #cabecalho{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    h1{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: whitesmoke;
+        background-color: rgb(0,162, 255);
+        width: 25%;
+        border-radius: 5px;
+        text-align: center;
+    }
+    .botoes{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    #mecanicobotao{
+        text-transform: uppercase;
+        color: whitesmoke;
+        background-color: rgb(0,162, 255);
+        width: 45%;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        float: bottom;
+    }
+    #sitebotao{
+        text-transform: uppercase;
+        color: whitesmoke;
+        background-color: rgb(0,162, 255);
+        width: 35%;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        float: bottom;
+    }
+    #integrantesbotao{
+        text-transform: uppercase;
+        color: whitesmoke;
+        background-color: rgb(0,162, 255);
+        width: 35%;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        float: bottom;
+    }
+    #voltarbotao{
+        text-transform: uppercase;
+        color: whitesmoke;
+        background-color: rgb(0, 74, 117);
+        width: 50%;
+        border-radius: 5px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 25px;
+        text-decoration: none;
+        float: bottom;
+    }
+    .logoPorto img{
+        display: flex;
+        max-width: 250px;
+        max-height: 250px;
+        margin-left: 1200px;
+        margin-top: -250px;
+    }
+    #footer{
+        position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color:rgb(0,162, 255);
+          color: white;
+          text-align: center;
+    }
+}
